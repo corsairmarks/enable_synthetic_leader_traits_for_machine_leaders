@@ -31,7 +31,7 @@ This mod can be safely added or removed from your savegame after the game has st
 
 [h2]Changelog[/h2]
 
-See [url=]Change Notes[/url]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2642820468]Change Notes[/url]
 
 [h2]Source Code[/h2]
 
