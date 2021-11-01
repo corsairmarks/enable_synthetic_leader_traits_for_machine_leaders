@@ -1,6 +1,8 @@
 # Overview
 
-Does what [Leader Traits: All Eligible Species Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2499031295) does for species-based leader traits, but for Machine Units - they gain the Synthetic leader traits.  Requested by [Marrow](https://steamcommunity.com/profiles/76561198257383427).
+Does what [Leader Traits: All Eligible Species Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2499031295) does for species-based leader traits, but for Machine Units - they gain the Synthetic leader traits.  In order to qualify, the Machine Unit leader(s) must belong to a Machine Intelligence with the Synthetic Age ascension perk, to a non-gestalt empire with the Synthetic Personality Matrix technology, of an Ancient Machine Intelligence.
+
+Requested by [Marrow](https://steamcommunity.com/profiles/76561198257383427).
 
 # Changes
 
@@ -30,6 +32,7 @@ This mod can be safely added or removed from your savegame after the game has st
 ## Changelog
 
 * 1.0.0 Initial version
+* 1.1.0 In order to get the Synthetic leader traits, an empire must be one three things: Fallen Machine Empire, Machine Intelligence with the Synthetic Age ascension perk, or a non-gestalt empire with the Synthetic Personality Matrix technology (normal empires usually cannot get Machine Unit leaders, but you might via mods)
 
 ## Source Code
 

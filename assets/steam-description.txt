@@ -1,6 +1,8 @@
 [h1]Overview[/h1]
 
-Does what [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2499031295]Leader Traits: All Eligible Species Traits[/url] does for species-based leader traits, but for Machine Units - they gain the Synthetic leader traits.  Requested by [url=https://steamcommunity.com/profiles/76561198257383427]Marrow[/url].
+Does what [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2499031295]Leader Traits: All Eligible Species Traits[/url] does for species-based leader traits, but for Machine Units - they gain the Synthetic leader traits.  In order to qualify, the Machine Unit leader(s) must belong to a Machine Intelligence with the Synthetic Age ascension perk, to a non-gestalt empire with the Synthetic Personality Matrix technology, of an Ancient Machine Intelligence.
+
+Requested by [url=https://steamcommunity.com/profiles/76561198257383427]Marrow[/url].
 
 [h1]Changes[/h1]
 
