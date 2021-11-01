@@ -96,6 +96,7 @@ leader_event = {
 	}
 }
 
+# gatekeeper for machine_leader_synthetic_traits.8
 # triggered by on_single_player_save_game_load
 event = {
 	id = machine_leader_synthetic_traits.6
@@ -113,21 +114,29 @@ event = {
 	}
 }
 
+# gatekeeper for machine_leader_synthetic_traits.8
+# triggered by on_tech_increased
+country_event = {
+	id = machine_leader_synthetic_traits.7
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_gestalt = no
+		last_increased_tech = tech_synthetic_leaders
+	}
+	immediate = {
+		country_event = {
+			id = machine_leader_synthetic_traits.8
+		}
+	}
+}
+
 # adjust all owned/pool machine unit leaders
-# triggered by on_game_start_country and machine_leader_synthetic_traits.6
+# triggered by on_game_start_country, and machine_leader_synthetic_traits.6, .7, and .9
 country_event = {
 	id = machine_leader_synthetic_traits.8
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = {
-		OR = {
-			is_machine_empire = yes
-			is_fallen_machine_empire = yes
-			owner_species = { has_trait = trait_machine_unit }
-			any_owned_leader = { species = { has_trait = trait_machine_unit } }
-			any_pool_leader = { species = { has_trait = trait_machine_unit } }
-		}
-	}
 	immediate = {
 		every_owned_leader = {
 			leader_event = {
@@ -139,6 +148,24 @@ country_event = {
 			leader_event = {
 				id = machine_leader_synthetic_traits.5
 			}
+		}
+	}
+}
+
+# gatekeeper for machine_leader_synthetic_traits.8
+# triggered by on_ascension_perk_picked
+country_event = {
+	id = machine_leader_synthetic_traits.9
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_ascension_perk = ap_synthetic_age
+		NOT = { has_country_flag = synthetic_age_leader_upgrade }
+	}
+	immediate = {
+		set_country_flag = synthetic_age_leader_upgrade
+		country_event = {
+			id = machine_leader_synthetic_traits.8
 		}
 	}
 }

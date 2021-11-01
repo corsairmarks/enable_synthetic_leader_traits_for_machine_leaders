@@ -1,6 +1,21 @@
 add_leader_trait_synthetic_for_machine_unit = {
 	if = {
-		limit = { species = { has_trait = trait_machine_unit } }
+		limit = {
+			species = { has_trait = trait_machine_unit }
+			owner = {
+				OR = {
+					is_fallen_machine_empire = yes
+					AND = {
+						is_machine_empire = yes
+						has_ascension_perk = ap_synthetic_age
+					}
+					AND = {
+						is_gestalt =  no
+						has_technology = tech_synthetic_leaders
+					}
+				}
+			}
+		}
 		if = {
 			limit = {
 				leader_class = admiral

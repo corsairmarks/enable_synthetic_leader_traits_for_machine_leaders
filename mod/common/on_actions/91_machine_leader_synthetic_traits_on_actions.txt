@@ -69,3 +69,19 @@ on_leader_species_changed = {
 		machine_leader_synthetic_traits.5
 	}
 }
+
+# fired when a country picks an ascension perk
+# this = country
+on_ascension_perk_picked = {
+	events = {
+		machine_leader_synthetic_traits.9
+	}
+}
+
+# fired when a country has increased the level of a tech, use last_increased_tech trigger to check tech and level
+# this = country
+on_tech_increased = {
+	events = {
+		machine_leader_synthetic_traits.7
+	}
+}
