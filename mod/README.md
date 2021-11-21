@@ -33,7 +33,7 @@ This mod can be safely added or removed from your savegame after the game has st
 
 * 1.0.0 Initial version
 * 1.1.0 In order to get the Synthetic leader traits, an empire must be one three things: Fallen Machine Empire, Machine Intelligence with the Synthetic Age ascension perk, or a non-gestalt empire with the Synthetic Personality Matrix technology (normal empires usually cannot get Machine Unit leaders, but you might via mods)
-* 1.2.0 Mark for compatibility with Stellaris 3.2 "Herbert" - no script changes
+* 1.2.0 Mark as compatible with Stellaris 3.2 "Herbert" - no script changes
 
 ## Source Code
 
