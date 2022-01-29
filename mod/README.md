@@ -14,7 +14,7 @@ All the mod's logic is implemented in standalone events and effects which should
 
 Not included in my compilation mod [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089).  This mod is compatible with the compilation.
 
-Built for Stellaris version 3.3.\* "Libra."  Not compatible with achievements.
+Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
 
 ### Recommended Companion Mods
 
