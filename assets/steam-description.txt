@@ -9,8 +9,6 @@ Adds new effects, events, and on_action hooks to ensure Machine Unit leaders gai
 [h2]Compatibility[/h2]
 All the mod's logic is implemented in standalone events and effects which should not conflict with other mods.  Does [b]not[/b] require Leader Traits: All Eligible Species Traits.
 
-Not included in my compilation mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url].  This mod is compatible with the compilation.
-
 Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
 
 [h3]Recommended Companion Mods[/h3]
