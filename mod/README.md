@@ -1,3 +1,5 @@
+**_DEPRECATED:_** Paradox has applied this change in 3.6 "Orion" alongside overall changes to ascension paths - if you have that version or higher, do not use this mod. It remains listed for players who choose to play the 3.4 "Cepheus" versions of Stellaris.
+
 # Overview
 
 Does what [Leader Traits: All Eligible Species Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2499031295) does for species-based leader traits, but for Machine Units - they gain the Synthetic leader traits.  In order to qualify, the Machine Unit leader(s) must belong to a Machine Intelligence with the Synthetic Age ascension perk, to a non-gestalt empire with the Synthetic Personality Matrix technology, or an Ancient Machine Intelligence.
@@ -34,6 +36,7 @@ This mod can be safely added or removed from your savegame after the game has st
 * 1.2.0 Mark as compatible with Stellaris 3.2 "Herbert" - no script changes
 * 1.3.0 Mark as compatible with Stellaris 3.3 "Libra" - no script changes
 * 2.0.0 Update for Stellaris version 3.4 "Cepheus" - use memory optimization feature for effects
+* 2.0.1 Mark as deprecated - unnecessary in Stellaris 3.6 "Orion" and higher
 
 ## Source Code
 
